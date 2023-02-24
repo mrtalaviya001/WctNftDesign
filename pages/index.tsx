@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <Navbar />
       </div>
       <div >
-        {/* <Image src={Homepage} alt="Logo" className="w-full" /> */}
+        <Image src={Homepage} alt="Logo" className="w-full" />
       </div>
     </>
   );

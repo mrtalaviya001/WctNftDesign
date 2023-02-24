@@ -13,12 +13,12 @@ function Navbar() {
     <>
       <nav className="bg-[#fff]">
         <div className=" px-2 ">
-          <div className="flex items-center h-16">
+          <div className="flex items-center  justify-between  h-16">
             <div className="flex-shrink-0">
               <Image className="w-[165.31px] h-[38px]" src={logo} alt="Logo" />
             </div>
             <div className="mx-4">
-              <div className="flex items-baseline space-x-4">
+              <div className="flex items-baseline">
                 <a
                   href="#"
                   className="relative text-black   px-3 py-2 rounded-md text-lg font-bold"
@@ -28,13 +28,13 @@ function Navbar() {
                 </a>
                 <a
                   href="#"
-                  className="relative text-gray-600 px-3 py-2 mx-0 text-lg font-normal"
+                  className="relative text-gray-600 px-3 py-2  text-lg font-normal"
                 >
                   Create
                 </a>
                 <a
                   href="#"
-                  className="relative text-gray-600 px-3 py-2 mx-0 text-lg font-normal"
+                  className="relative text-gray-600 px-3 py-2  text-lg font-normal"
                 >
                   Marketplace
                   <span className="absolute bottom-[4px] font-medium  left-1/2 transform -translate-x-1/2 px-3 translate-y-1/2 w-full text-start text-xs text-red-500 nowrap">
@@ -43,7 +43,7 @@ function Navbar() {
                 </a>
                 <a
                   href="#"
-                  className="relative text-gray-600 px-3 py-2 mx-0 text-lg font-normal"
+                  className="relative text-gray-600 px-3 py-2  text-lg font-normal"
                 >
                   Learn
                 </a>
@@ -80,6 +80,67 @@ function Navbar() {
           </div>
         </div>
       </nav>
+
+      {/* <nav className="flex items-center justify-between flex-wrap bg-white ">
+        <div className="flex items-center flex-shrink-0 text-white mr-6">
+          <Image className="w-[155.31px] h-[38px]" src={logo} alt="Logo" />
+        </div>
+        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div className="text-sm lg:flex-grow">
+            <a
+              href="#"
+              className="relative text-black lg:inline-block px-3 py-2 lg:mt-0 rounded-md text-lg font-bold"
+            >
+              Dashboard
+              <span className="absolute bottom-[4px] left-1/2 transform -translate-x-1/2 translate-y-1/2 h-1.5 w-1.5 bg-orange-500 rounded-full" />
+            </a>
+            <a
+              href="#"
+              className="relative text-gray-600 px-3 py-2 mx-0 text-lg font-normal"
+            >
+              Create
+            </a>
+            <a
+              href="#"
+              className="relative text-gray-600 px-3 py-2 mx-0 text-lg font-normal"
+            >
+              Marketplace
+              <span className="absolute bottom-[4px] font-medium  left-1/2 transform -translate-x-1/2 px-3 translate-y-1/2 w-full text-start text-xs text-red-500 nowrap">
+                Coming Soon
+              </span>
+            </a>
+            <a
+              href="#"
+              className="relative text-gray-600 px-3 py-2 mx-0 text-lg font-normal"
+            >
+              Learn
+            </a>
+          </div>
+          <div className="w-[705px]">
+            <div className="relative w-full border border-gray-300 rounded-md">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3">
+                <AiOutlineSearch className="text-gray-500" />
+              </div>
+              <input
+                className="block w-full pl-9 pr-3 py-2 rounded-md text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                type="text"
+                placeholder="Find Holders"
+              />
+              <div className="absolute inset-y-0 right-0 flex items-center pr-3">
+                <Image src={slash} alt={""} className="cursor-pointer" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <a
+              href="#"
+              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+            >
+              Download
+            </a>
+          </div>
+        </div>
+      </nav> */}
     </>
   );
 }
