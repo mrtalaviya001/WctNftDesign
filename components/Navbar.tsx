@@ -11,7 +11,7 @@ import { BsSlashSquareFill } from "react-icons/bs";
 function Navbar() {
   return (
     <>
-      <nav className="bg-[#fff]">
+      <nav className="bg-[#fff] ">
         <div className=" px-2 ">
           <div className="flex items-center  justify-between  h-16">
             <div className="flex-shrink-0">

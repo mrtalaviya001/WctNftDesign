@@ -3,6 +3,36 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    font-family: sans-serif;
+  }
+  .blur-contant {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(24px);
+  }
+  .char1 {
+    background-image: url("/assets/Character/character1.png");
+  }
+  input[type="checkbox"] {
+    accent-color: black;
+  }
+  .progressbar {
+    width: 295px;
+    height: 16px;
+
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(255, 255, 255, 0.5) 100%
+      ),
+      #ff4800;
+    background-blend-mode: overlay, normal;
+    border-radius: 8px;
+  }
+  .main-progrss {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
   .HeadingTag {
     font-family: sans-serif;
     font-style: normal;

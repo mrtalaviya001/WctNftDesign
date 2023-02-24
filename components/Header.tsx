@@ -28,11 +28,10 @@ const Header = () => {
             <Image src={Sales} alt={""} className="cursor-pointer" />
           </div>
         </div>
-        <div className="grid grid-cols-5 mt-1  gap-4 ">
-          <div className=" flex font-bold justify-center items-start h-[151px] rounded-md ">
+        <div className="grid grid-cols-5 mt-1  gap-4 mb-6">
+          <div className=" flex font-bold justify-center items-start  ">
             NFT Management
           </div>
-
           <div className=" flex font-bold justify-center items-start">
             Find Holders
           </div>
