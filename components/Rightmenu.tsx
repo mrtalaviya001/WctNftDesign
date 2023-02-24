@@ -8,8 +8,8 @@ function Rightmenu() {
     setIsOpen(true);
   };
   return (
-    <div>
-      <div className="grid grid-rows-1 mt-2 grid-flow-col ">
+    <div className="mb-5">
+      <div className="grid grid-rows-1 mt-3 grid-flow-col ">
         <div className="bg-white shadow-md border rounded-md">
           <div className="flex  justify-between  text-sm">
             <div className="text-[#707070] m-3 "> Wallet balance</div>
@@ -80,7 +80,7 @@ function Rightmenu() {
       </div>
       <div className="grid grid-rows-1 mt-4 grid-flow-col ">
         <div className="bg-white shadow-md border rounded-md">
-          <div className="text-xl m-5 font-normal">Saved Searches</div>
+          <div className="text-xl m-5 font-semibold ">Saved Searches</div>
           <div className=" flex  m-5 justify-between  text-sm  ">
             <div className="text-[#707070] ">Green apple</div>
             <div className="flex  justify-between items-center">
@@ -101,7 +101,7 @@ function Rightmenu() {
       </div>
       <div className="grid grid-rows-1 mt-4 grid-flow-col ">
         <div className="bg-white shadow-md border rounded-md">
-          <div className="text-xl m-5 font-normal">Recent Activity</div>
+          <div className="text-xl m-5 font-semibold">Recent Activity</div>
           <div className=" flex  m-5 justify-between  text-sm  ">
             <div className="text-[#707070] ">Settings &gt; Account</div>
             <div className="flex  justify-between items-center">

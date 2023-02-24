@@ -28,7 +28,7 @@ function Card() {
                       <span>
                         <AiTwotoneCalendar />
                       </span>
-                      <span className="pt-0.5 font-medium">It's Raining</span>
+                      <span className="pt-0.5 font-medium">Harvest</span>
                     </span>
                     <span className="flex justify-center items-center gap-2 ml-4">
                       <span className="flex justify-center items-center">
@@ -52,7 +52,7 @@ function Card() {
                           lineHeight: "30px",
                         }}
                       >
-                        Water
+                        Manure
                       </span>
                       <span className="font-normal text-sm ml-2">x 100</span>
                     </div>
@@ -61,18 +61,18 @@ function Card() {
                         Wallet Transactions:
                       </span>
                       <span>
-                        <b>100</b> <span>Success</span>
+                        <b>44</b> <span>Success</span>
                       </span>
                       <span>
-                        <b>0</b> <span>Processing</span>
+                        <b>8</b> <span>Processing</span>
                       </span>
                       <span>
-                        <b>0</b> <span>Failed</span>
+                        <b>2</b> <span>Failed</span>
                       </span>
                     </div>
                     <div className="mt-2 pr-12">
                       <div className="w-full h-4 mb-4 main-progrss">
-                        <div className="progressbar" style={{ width: "100%" }} />
+                        <div className="progressbar" style={{ width: "44%" }} />
                       </div>
                     </div>
                     <div className="flex justify-start items-center gap-2.5">
@@ -132,7 +132,7 @@ function Card() {
                       <span>
                         <AiTwotoneCalendar />
                       </span>
-                      <span className="pt-0.5 font-medium">Harvest</span>
+                      <span className="pt-0.5 font-medium">It's Raining</span>
                     </span>
                     <span className="flex justify-center items-center gap-2 ml-4">
                       <span className="flex justify-center items-center">
@@ -156,7 +156,7 @@ function Card() {
                           lineHeight: "30px",
                         }}
                       >
-                        Manure
+                        Water
                       </span>
                       <span className="font-normal text-sm ml-2">x 100</span>
                     </div>
@@ -165,18 +165,21 @@ function Card() {
                         Wallet Transactions:
                       </span>
                       <span>
-                        <b>44</b> <span>Success</span>
+                        <b>100</b> <span>Success</span>
                       </span>
                       <span>
-                        <b>44</b> <span>Processing</span>
+                        <b>0</b> <span>Processing</span>
                       </span>
                       <span>
-                        <b>44</b> <span>Failed</span>
+                        <b>0</b> <span>Failed</span>
                       </span>
                     </div>
                     <div className="mt-2 pr-12">
                       <div className="w-full h-4 mb-4 main-progrss">
-                        <div className="progressbar" style={{ width: "45%" }} />
+                        <div
+                          className="progressbar"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                     <div className="flex justify-start items-center gap-2.5">
